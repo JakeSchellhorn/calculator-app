@@ -3,7 +3,7 @@
 ---
 
 ### Overview
-Simple calculator app created to learn tkinit in python. Created frames that hold buttons using the built-in grid function. Also used lamdba functions to call the btn_click function in order to update the expression on the input field.
+Simple calculator app created to learn tkinter in python. Created frames that hold buttons using the built-in grid function. Also used lamdba functions to call the btn_click function in order to update the expression on the input field.
 
 ### Executing Program
 * Clone repo
