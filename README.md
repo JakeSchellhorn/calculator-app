@@ -1,1 +1,3 @@
-# calculator-app
+# Calculator App 
+### Author: Jake Schellhorn
+---
