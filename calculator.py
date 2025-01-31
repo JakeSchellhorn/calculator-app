@@ -5,6 +5,7 @@ root = tk.Tk()
 root.title("Calculator")
 root.configure(background="yellow")
 root.geometry("312x324")
+root.resizable(0, 0)
 
 #calculator functions
 
@@ -32,9 +33,10 @@ frame = tk.Frame(root, width = 302, height = 314, bg = "blue")
 frame.pack(padx = 10, pady = 10)
 
 input_frame = tk.Frame(frame, width = 302, height = 100, bg = "silver")
-input_frame.pack()
+input_frame.pack(side="top")
 input_field = tk.Entry(input_frame, textvariable = equation, justify = "right")
-input_field.pack()
+input_field.grid(row = 0, column = 0)
+input_field.pack(ipady = 10, ipadx = 70)
 
 button_frame = tk.Frame(frame, width = 302, height = 264, bg = "silver")
 button_frame.pack(padx = 10, pady = 10)
